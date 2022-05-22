@@ -1,0 +1,85 @@
+.banner {
+  height: 400px;
+}
+
+.csharp-theme {
+  background-color: #651471;
+  -webkit-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.typescript-theme {
+  background-color: #2f74c0;
+  -webkit-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.javascript-theme {
+  background-color: #efd81d;
+  -webkit-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+
+  h1 {
+    color: black;
+  }
+
+  .fabricio-icon {
+    color: black;
+  }
+
+  .welcome {
+    h1 {
+      color: black;
+    }
+  }
+  .technologies {
+    p {
+      color: black;
+    }
+    .csharp {
+      img {
+        filter: invert(0%) sepia(9%) saturate(15%) hue-rotate(5deg)
+          brightness(95%) contrast(100%);
+      }
+    }
+
+    .typescript {
+      img {
+        filter: invert(0%) sepia(9%) saturate(15%) hue-rotate(5deg)
+          brightness(95%) contrast(100%);
+      }
+    }
+
+    .javascript {
+      img {
+        filter: invert(0%) sepia(9%) saturate(15%) hue-rotate(5deg)
+          brightness(95%) contrast(100%);
+      }
+    }
+  }
+}
+
+
+.csharp {
+  img {
+    filter: invert(161%) sepia(86%) saturate(2814%) hue-rotate(184deg)
+      brightness(127%) contrast(113%);
+  }
+}
+
+.typescript {
+  img {
+    filter: invert(100%) sepia(6%) saturate(238%) hue-rotate(198deg)
+      brightness(113%) contrast(96%);
+  }
+}
+
+.javascript {
+  img {
+    filter: invert(100%) sepia(6%) saturate(238%) hue-rotate(198deg)
+      brightness(113%) contrast(96%);
+  }
+}
