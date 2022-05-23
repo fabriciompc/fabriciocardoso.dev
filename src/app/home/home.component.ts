@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Case } from '../models/case';
+import { CaseService } from './../shared/case.service';
 const Typewriter = require('typewriter-effect/dist/core');
 
 @Component({
@@ -7,18 +9,35 @@ const Typewriter = require('typewriter-effect/dist/core');
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
-
   theme: string = 'default';
+  cases: Case[] = new Array<Case>();
+  filteredCases: Case[] = new Array<Case>();
+
+  constructor(private caseService: CaseService) {}
 
   ngOnInit() {
     this.initTypewriterEffect();
+    this.initCasesList();
   }
 
   changeTheme(theme: string) {
     this.theme = theme;
+    this.filterByLanguage(theme);
   }
 
+  private initCasesList() {
+    this.caseService.get().subscribe((data) => {
+      this.cases = data;
+    });
+  }
+
+  private filterByLanguage(languageToFilter: string) {
+    this.filteredCases = this.cases.filter((a) =>
+      a.language
+        .toLocaleLowerCase()
+        .includes(languageToFilter.replace(/-theme/g, ''))
+    );
+  }
 
   private initTypewriterEffect() {
     const app = document.getElementById('typewriter');

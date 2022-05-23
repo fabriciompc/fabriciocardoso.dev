@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Natura",
+    "language": "Typescript",
+    "tags": ["AWS", "Node", "Postgres", "SQS"],
+    "image": "natura.jpg",
+    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
+  },
+  {
+    "name": "Eleva",
+    "language": "CSharp",
+    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
+    "image": "eleva.jpg",
+    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
+  }
+]

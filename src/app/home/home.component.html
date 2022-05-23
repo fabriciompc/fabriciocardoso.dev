@@ -59,6 +59,10 @@
           </div>
         </div>
       </section>
+
+      <section class="text-gray-600 body-font">
+        <app-card [cases]="filteredCases" *ngIf="cases" ></app-card>
+      </section>
     </div>
   </div>
 </div>
