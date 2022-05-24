@@ -1,16 +1,50 @@
 [
   {
     "name": "Natura",
+    "url": "https://escolaeleva.com.br/",
     "language": "Typescript",
     "tags": ["AWS", "Node", "Postgres", "SQS"],
-    "image": "natura.jpg",
+    "image": "natura.png",
     "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
   },
   {
     "name": "Eleva",
+    "url": "https://escolaeleva.com.br/",
     "language": "CSharp",
     "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
-    "image": "eleva.jpg",
+    "image": "eleva.png",
+    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
+  },
+  {
+    "name": "Eleva",
+    "url": "https://escolaeleva.com.br/",
+    "language": "CSharp",
+    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
+    "image": "eleva.png",
+    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
+  },
+  {
+    "name": "Eleva",
+    "url": "https://escolaeleva.com.br/",
+    "language": "CSharp",
+    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
+    "image": "eleva.png",
+    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
+  },
+  {
+    "name": "Eleva",
+    "url": "https://escolaeleva.com.br/",
+    "language": "CSharp",
+    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
+    "image": "eleva.png",
+    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
+  },
+  {
+    "name": "Eleva",
+    "url": "https://escolaeleva.com.br/",
+    "language": "CSharp",
+    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
+    "image": "eleva.png",
     "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
   }
 ]

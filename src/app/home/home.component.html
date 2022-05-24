@@ -17,8 +17,8 @@
         <p class="text-zinc-50 text-center pb-14">
           Select a language to start:
         </p>
-        <div class="languages flex justify-center items-center mobile:flex-col sm:flex-row md:flex-row md:flex-row lg:flex-row">
-          <div class="pb-12 px-16 csharp" (click)="changeTheme('csharp-theme')">
+        <div class="languages flex justify-center items-center mobile:flex-col">
+          <div class="pb-12 px-16 csharp cursor-pointer" (click)="changeTheme('csharp-theme')">
             <img
               class="w-24"
               src="./../../assets/img/csharp.svg"
@@ -28,7 +28,7 @@
           </div>
 
           <div
-            class="pb-12 px-16 typescript"
+            class="pb-12 px-16 typescript cursor-pointer"
             (click)="changeTheme('typescript-theme')"
           >
             <img
@@ -40,7 +40,7 @@
           </div>
 
           <div
-            class="pb-12 px-16 javascript"
+            class="pb-12 px-16 javascript cursor-pointer"
             (click)="changeTheme('javascript-theme')"
           >
             <img
