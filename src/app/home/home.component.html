@@ -4,18 +4,11 @@
       <nav>
         <div class="flex items-center justify-between py-4">
           <div class="text-gray-50 fabricio-icon">fabriciocardoso.dev</div>
-
-          <!-- <div class="hidden sm:flex sm:items-center">
-                <a href="#" class="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4">Products</a>
-                <a href="#" class="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4">Marketplace</a>
-                <a href="#" class="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4">Partners</a>
-                <a href="#" class="text-gray-800 text-sm font-semibold hover:text-purple-600">Pricing</a>
-              </div> -->
         </div>
       </nav>
       <section class="welcome">
         <div class="banner flex justify-center items-center">
-          <h1 class="text-gray-50 text-7xl text-center">
+          <h1 class="text-gray-50 text-7xl text-center mobile:text-6xl mobile:px-2">
             Hi, My name is Fabricio! <br />I'm <span id="typewriter"></span>
           </h1>
         </div>
@@ -24,7 +17,7 @@
         <p class="text-zinc-50 text-center pb-14">
           Select a language to start:
         </p>
-        <div class="languages flex justify-center items-center">
+        <div class="languages flex justify-center items-center mobile:flex-col sm:flex-row md:flex-row md:flex-row lg:flex-row">
           <div class="pb-12 px-16 csharp" (click)="changeTheme('csharp-theme')">
             <img
               class="w-24"
@@ -61,7 +54,7 @@
       </section>
 
       <section class="text-gray-600 body-font">
-        <app-card [cases]="filteredCases" *ngIf="cases" ></app-card>
+        <app-card [cases]="filteredCases" *ngIf="cases"></app-card>
       </section>
     </div>
   </div>
