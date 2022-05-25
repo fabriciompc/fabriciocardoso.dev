@@ -1,10 +1,5 @@
-import {
-  Component,
-  Input,
-  OnChanges,
-  OnInit,
-  SimpleChanges,
-} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Case } from '../models/case';
 
 @Component({
@@ -15,9 +10,13 @@ import { Case } from '../models/case';
 export class CardComponent implements OnInit {
   @Input() cases: Case[] = [];
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
+
+  goToCaseDetail(c: Case) {
+    this.router.navigateByUrl('/case', { state: c });
+  }
 
   checkLanguageForColor(language: string): string {
     switch (language) {
