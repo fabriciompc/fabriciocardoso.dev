@@ -1,6 +1,6 @@
 <!-- component -->
-<div class="mt-6 bg-gray-50">
-  <div class="px-10 py-6 mx-auto">
+<div [ngClass]="theme">
+  <div class="py-6 mx-auto">
     <!--author-->
     <div class="max-w-6xl px-10 py-6 mx-auto bg-gray-50">
       <img
@@ -18,30 +18,34 @@
       </div>
       <div class="mt-2">
         <!--post heading-->
-        <a
-          href="#"
-          class="sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-purple-500 hover:underline"
-          >Django Authentication with oauth using facebook,twitter and google</a
-        >
+        <h1 class="text-4xl">
+          {{ case.description }}
+        </h1>
       </div>
 
       <!--end post header-->
       <!--post content-->
       <div
-        class="max-w-4xl px-10 mx-auto text-2xl text-gray-700 mt-4 rounded bg-gray-100"
+        class="max-w-4xl px-10 mx-auto text-2xl text-gray-700 mt-4 rounded bg-gray-100 h-full"
       >
         <!--content body-->
         <div>
           <p class="mt-2 p-8">
-            If you created a web application and wanted it to grow a user base
-            reall quickly,the easiest way is to avoid bothering them with alot
-            forms. No one likes filling up forms! A web form should and must
-            only be used when necessary,in case a user doesnt have account with
-            any of the social networks.That is the moment you want to implement
-            social login on your application.
+            {{ case.content }}
+          </p>
+        </div>
+
+        <div>
+          <p class="mt-2 pt-8 pl-8 text-lg">
+            Company: <span>{{ case.company }}</span>
+          </p>
+          <p class="mt-2 pl-8 pb-8 text-lg">
+            Period of contribution:
+            <span>{{ case.start | date }} at {{ case.end | date }}</span>
           </p>
         </div>
       </div>
+
       <button
         class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
         [routerLink]="'/'"

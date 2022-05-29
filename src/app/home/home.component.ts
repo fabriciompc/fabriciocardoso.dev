@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
 
   changeTheme(theme: string) {
     this.theme = theme;
+    this.setThemeOnLocalStorage(theme);
     this.filterByLanguage(theme);
   }
 
@@ -37,6 +38,10 @@ export class HomeComponent implements OnInit {
         .toLocaleLowerCase()
         .includes(languageToFilter.replace(/-theme/g, ''))
     );
+  }
+
+  private setThemeOnLocalStorage(theme: string) {
+    localStorage.setItem('theme', theme);
   }
 
   private initTypewriterEffect() {

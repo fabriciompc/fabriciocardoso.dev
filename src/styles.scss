@@ -5,5 +5,15 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 html {
+  @apply h-full;
   font-family: "Ubuntu", sans-serif;
 }
+
+body {
+  @apply h-full;
+}
+
+div#__next {
+  @apply h-full;
+}
+

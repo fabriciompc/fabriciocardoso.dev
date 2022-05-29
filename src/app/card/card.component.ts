@@ -15,7 +15,12 @@ export class CardComponent implements OnInit {
   ngOnInit(): void {}
 
   goToCaseDetail(c: Case) {
+    this.setCaseOnLocalStorage(c);
     this.router.navigateByUrl('/case', { state: c });
+  }
+
+  private setCaseOnLocalStorage(c: Case) {
+    localStorage.setItem('case', JSON.stringify(c));
   }
 
   checkLanguageForColor(language: string): string {

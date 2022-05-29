@@ -10,12 +10,27 @@ import { Case } from '../models/case';
 })
 export class CasePageComponent implements OnInit {
   case: Case = {} as Case;
-  constructor(private router: Router, private location: Location) {
-    console.log(this.location.getState());
-  }
+  theme: string = 'default';
+  constructor() {}
 
   ngOnInit() {
     this.case = history.state;
-    console.log(this.case);
+    this.getThemeOnLocalStorage();
+
+    if (!!this.case) {
+      this.getCaseOnLocalStorage();
+    }
+  }
+
+  private getCaseOnLocalStorage() {
+    const c = localStorage.getItem('case') as string;
+    this.case = JSON.parse(c);
+  }
+
+  private getThemeOnLocalStorage() {
+    this.theme =
+      localStorage.getItem('theme') !== 'null'
+        ? (localStorage.getItem('theme') as string)
+        : 'default';
   }
 }

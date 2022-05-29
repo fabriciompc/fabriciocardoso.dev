@@ -1,50 +1,14 @@
 [
   {
-    "name": "Natura",
-    "url": "https://escolaeleva.com.br/",
-    "language": "Typescript",
-    "tags": ["AWS", "Node", "Postgres", "SQS"],
-    "image": "natura.png",
-    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
-  },
-  {
-    "name": "Eleva",
-    "url": "https://escolaeleva.com.br/",
+    "name": "Amil",
+    "url": "https://www.amil.com.br/institucional/#/",
     "language": "CSharp",
-    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
-    "image": "eleva.png",
-    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
-  },
-  {
-    "name": "Eleva",
-    "url": "https://escolaeleva.com.br/",
-    "language": "CSharp",
-    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
-    "image": "eleva.png",
-    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
-  },
-  {
-    "name": "Eleva",
-    "url": "https://escolaeleva.com.br/",
-    "language": "CSharp",
-    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
-    "image": "eleva.png",
-    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
-  },
-  {
-    "name": "Eleva",
-    "url": "https://escolaeleva.com.br/",
-    "language": "CSharp",
-    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
-    "image": "eleva.png",
-    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
-  },
-  {
-    "name": "Eleva",
-    "url": "https://escolaeleva.com.br/",
-    "language": "CSharp",
-    "tags": ["AWS", "dotnetcore", "SQL Server", "Angular"],
-    "image": "eleva.png",
-    "description": "Projeto com varias frentes de desenvolvimento, utilizando o que há de mais modernos em arquitetura e engenharia de software."
+    "tags": ["dotnet", "MVC", "Oracle", "NHibernate"],
+    "image": "amil.png",
+    "description": "Support and development of corporate systems for customer service.",
+    "content": "I started my contribution in this company as Support Analyst N2, after two years in this position i started to get interested in the systems development process. At this moment, the company used dotnet MVC stack for a fullstack development of the solutions. Self-taught, i began to understand the nuances and patterns that development teams used to deliver new features. I studied for a year CSharp, MVC, OOP and the tools that surrounded the development ecosystems, market ORMs like Entity Framework and NHibernate. Even as a Support Analyst I started to contribute to the development and bug fixing, submitting my code to the analysis of several more experienced developers, which made me advance many spots on the path to be a good dev.",
+    "company": "Amil",
+    "start": "12-09-2014",
+    "end": "02-11-2018"
   }
 ]
