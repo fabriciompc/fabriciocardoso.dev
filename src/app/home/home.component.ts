@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+import { NgwWowService } from 'ngx-wow';
 import { Case } from '../models/case';
 import { CaseService } from './../shared/case.service';
 const Typewriter = require('typewriter-effect/dist/core');
@@ -13,11 +15,15 @@ export class HomeComponent implements OnInit {
   cases: Case[] = new Array<Case>();
   filteredCases: Case[] = new Array<Case>();
 
-  constructor(private caseService: CaseService) {}
+  constructor(
+    private caseService: CaseService,
+    private wowService: NgwWowService
+  ) {}
 
   ngOnInit() {
     this.initTypewriterEffect();
     this.initCasesList();
+    this.wowService.init();
   }
 
   changeTheme(theme: string) {

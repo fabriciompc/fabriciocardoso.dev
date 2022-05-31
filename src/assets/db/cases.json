@@ -77,7 +77,7 @@
     ],
     "image": "natura.png",
     "description": "Developing and supporting a highly complex systems using microservices standards.",
-    "content": "This project was for the development of a system that was already in production, it replaced a legacy system of enrollment of students from the client's school network. A massive system using the SAAS (Software As A Service) standard and using cloud hosting on AWS as well as the use of all tools (S3, EC2 etc). Very interesting the way the frontend was built, using ngRx or Redux for Angular for state management. On the backend we used dotnetcore ver 2.3. My contribution time on this project was 1 year, undoubtedly a great learning experience for me from the perspective of multitenancy applications and new development patterns.",
+    "content": "In this project I worked as a backend developer, a giant project with several development fronts with several teams working together to develop and improve the client's products. The products mostly used the microservices pattern running on AWS using Lambda and message queues using SQS, interoperability between teams was crucial to make the whole solution make sense. It was a total immersion in the new standards of development, in a short time I was used to Typescript and now I use this language in most of my projects. I participated in this project for 4 months and contributed with the delivery of integration functionalities for the unification of information between LATAM and Mexico.",
     "company": "Vizir Software Studio",
     "start": "10-01-2020",
     "end": "12-04-2021"

@@ -1,34 +1,26 @@
-<!-- component -->
 <div [ngClass]="theme">
   <div class="py-6 mx-auto">
-    <!--author-->
     <div class="max-w-6xl px-10 py-6 mx-auto bg-gray-50">
       <img
         class="object-contain object-center w-full shadow-sm max-h-72"
         src="../../assets/img/{{ case?.image }}"
       />
-
-      <!--post categories-->
-      <div class="flex items-center justify-start mt-4 mb-4">
+      <div class="flex items-center justify-start flex-wrap mt-4 mb-4">
         <span
           *ngFor="let tag of case.tags"
-          class="px-2 py-1 font-bold bg-red-400 text-white rounded-lg hover:bg-gray-500 mr-4"
+          class="px-2 py-1 mt-2 font-bold bg-red-400 text-white rounded-lg hover:bg-gray-500 mr-4"
           >{{ tag }}</span
         >
       </div>
       <div class="mt-2">
-        <!--post heading-->
         <h1 class="text-4xl">
           {{ case.description }}
         </h1>
       </div>
 
-      <!--end post header-->
-      <!--post content-->
       <div
         class="max-w-4xl px-10 mx-auto text-2xl text-gray-700 mt-4 rounded bg-gray-100 h-full"
       >
-        <!--content body-->
         <div>
           <p class="mt-2 p-8">
             {{ case.content }}
