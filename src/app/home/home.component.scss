@@ -2,6 +2,13 @@
   height: 400px;
 }
 
+.social-icon {
+  img {
+    filter: invert(100%) sepia(6%) saturate(238%) hue-rotate(198deg)
+      brightness(113%) contrast(96%);
+  }
+}
+
 .csharp-theme {
   background-color: #651471;
   -webkit-transition: background-color 0.2s linear;
@@ -61,7 +68,6 @@
     }
   }
 }
-
 
 .csharp {
   img {

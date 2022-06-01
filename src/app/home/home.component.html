@@ -1,14 +1,30 @@
 <div class="w-full min-h-screen m-0 bg-zinc-900">
   <div class="bg-zinc-900" [ngClass]="theme">
     <div class="container mx-auto px-4">
-      <nav>
-        <div class="flex items-center justify-between py-4">
-          <div class="text-gray-50 fabricio-icon">fabriciocardoso.dev</div>
+      <nav class="flex mobile:justify-center">
+        <div class="justify-start py-4 text-gray-50 fabricio-icon">
+          fabriciocardoso.dev
         </div>
+        <span class="justify-end px-4 py-4 social-icon"
+          ><a href="https://github.com/fabriciompc" target="_blank"
+            ><img
+              class="text-gray-50 w-6 cursor-pointer"
+              src="./../../assets/img/github.svg"
+              alt="github" /></a
+        ></span>
+        <span class="justify-end py-4 social-icon"
+          ><a href="https://www.linkedin.com/in/fabriciompc/" target="_blank"
+            ><img
+              class="w-6 cursor-pointer"
+              src="./../../assets/img/linkedin.svg"
+              alt="github" /></a
+        ></span>
       </nav>
       <section class="welcome">
         <div class="banner flex justify-center items-center">
-          <h1 class="text-gray-50 text-7xl text-center mobile:text-6xl mobile:px-2">
+          <h1
+            class="text-gray-50 text-7xl text-center mobile:text-6xl mobile:px-2"
+          >
             Hi, My name is Fabricio! <br />I'm <span id="typewriter"></span>
           </h1>
         </div>
@@ -18,7 +34,10 @@
           Select a language to start:
         </p>
         <div class="languages flex justify-center items-center mobile:flex-col">
-          <div class="pb-12 px-16 csharp cursor-pointer" (click)="changeTheme('csharp-theme')">
+          <div
+            class="pb-12 px-16 csharp cursor-pointer"
+            (click)="changeTheme('csharp-theme')"
+          >
             <img
               class="w-24"
               src="./../../assets/img/csharp.svg"
