@@ -9,6 +9,13 @@
   }
 }
 
+.default {
+  @apply bg-zinc-900;
+  -webkit-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
 .csharp-theme {
   background-color: #651471;
   -webkit-transition: background-color 0.2s linear;

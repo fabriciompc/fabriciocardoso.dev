@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
 import { NgwWowService } from 'ngx-wow';
 import { Case } from '../models/case';
 import { CaseService } from './../shared/case.service';
@@ -27,9 +26,30 @@ export class HomeComponent implements OnInit {
   }
 
   changeTheme(theme: string) {
-    this.theme = theme;
-    this.setThemeOnLocalStorage(theme);
-    this.filterByLanguage(theme);
+    if (
+      (this.theme === 'default' && theme === 'csharp-theme') ||
+      (this.theme === 'typescript-theme' && theme === 'csharp-theme')
+    ) {
+      this.theme = theme;
+      this.setThemeOnLocalStorage(theme);
+      this.filterByLanguage(theme);
+      return;
+    }
+
+    if (
+      (this.theme === 'default' && theme === 'typescript-theme') ||
+      (this.theme === 'csharp-theme' && theme === 'typescript-theme')
+    ) {
+      this.theme = theme;
+      this.setThemeOnLocalStorage(theme);
+      this.filterByLanguage(theme);
+      return;
+    }
+
+    this.theme = 'default';
+    this.setThemeOnLocalStorage('default');
+    this.filterByLanguage('default');
+    return;
   }
 
   private initCasesList() {

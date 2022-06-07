@@ -8,9 +8,9 @@
       <div class="flex items-center justify-start flex-wrap mt-4 mb-4">
         <span
           *ngFor="let tag of case.tags"
-          class="px-2 py-1 mt-2 font-bold bg-red-400 text-white rounded-lg hover:bg-gray-500 mr-4"
-          >{{ tag }}</span
-        >
+          class="px-2 py-1 mt-2"
+          ><img src="{{ tag.img }}" alt="badge"
+        /></span>
       </div>
       <div class="mt-2">
         <h1 class="text-4xl">

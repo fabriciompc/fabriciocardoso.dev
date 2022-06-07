@@ -3,7 +3,20 @@
     "name": "Amil",
     "url": "https://www.amil.com.br/institucional/#/",
     "language": "CSharp",
-    "tags": ["dotnet", "mvc", "oracle", "nhibernate"],
+    "tags": [
+      {
+        "tag": "dotnetcore",
+        "img": "https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white  "
+      },
+      {
+        "tag": "oracle",
+        "img": "https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black"
+      },
+      {
+        "tag": "nhibernate",
+        "img": "https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white"
+      }
+    ],
     "image": "amil.png",
     "description": "Support and development of corporate systems for customer service.",
     "content": "I started my contribution in this company as Support Analyst N2, after two years in this position i started to get interested in the systems development process. At this moment, the company used dotnet MVC stack for a fullstack development of the solutions. Self-taught, i began to understand the nuances and patterns that development teams used to deliver new features. I studied for a year CSharp, MVC, OOP and the tools that surrounded the development ecosystems, market ORMs like Entity Framework and NHibernate. Even as a Support Analyst I started to contribute to the development and bug fixing, submitting my code to the analysis of several more experienced developers, which made me advance many spots on the path to be a good dev.",
@@ -16,13 +29,26 @@
     "url": "https://gestaosat.com/",
     "language": "CSharp",
     "tags": [
-      "dotnetcore",
-      "api",
-      "sql server",
-      "efcore",
-      "angular",
-      "typescript",
-      "azure"
+      {
+        "tag": "dotnetcore",
+        "img": "https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white  "
+      },
+      {
+        "tag": "sqlserver",
+        "img": "https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white"
+      },
+      {
+        "tag": "angular",
+        "img": "https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"
+      },
+      {
+        "tag": "typescript",
+        "img": "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "tag": "azure",
+        "img": "https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white"
+      }
     ],
     "image": "sat.png",
     "description": "Development of new product to leverage the customer's business.",
@@ -36,18 +62,34 @@
     "url": "https://elevaeducacao.com.br/",
     "language": "CSharp",
     "tags": [
-      "dotnetcore",
-      "api",
-      "sql server",
-      "efcore",
-      "angular",
-      "typescript",
-      "redux",
-      "ngrx",
-      "aws",
-      "ec2",
-      "s3",
-      "docker"
+      {
+        "tag": "dotnetcore",
+        "img": "https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white  "
+      },
+      {
+        "tag": "sqlserver",
+        "img": "https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white"
+      },
+      {
+        "tag": "angular",
+        "img": "https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"
+      },
+      {
+        "tag": "typescript",
+        "img": "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "tag": "redux",
+        "img": "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"
+      },
+      {
+        "tag": "aws",
+        "img": "https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+      },
+      {
+        "tag": "docker",
+        "img": "https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"
+      }
     ],
     "image": "eleva.png",
     "description": "Developing new features for a highly scalable critical product.",
@@ -61,19 +103,26 @@
     "url": "https://www.natura.com.br/",
     "language": "Typescript",
     "tags": [
-      "microservices",
-      "serverless",
-      "api",
-      "postgres",
-      "sequelize",
-      "lambda",
-      "javascript",
-      "sqs",
-      "sns",
-      "aws",
-      "ec2",
-      "s3",
-      "docker"
+      {
+        "tag": "postgresql",
+        "img": "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+      },
+      {
+        "tag": "sequelize",
+        "img": "https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"
+      },
+      {
+        "tag": "javascript",
+        "img": "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
+      },
+      {
+        "tag": "aws",
+        "img": "https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+      },
+      {
+        "tag": "docker",
+        "img": "https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"
+      }
     ],
     "image": "natura.png",
     "description": "Developing and supporting a highly complex systems using microservices standards.",
