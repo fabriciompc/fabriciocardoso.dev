@@ -6,9 +6,7 @@
         src="../../assets/img/{{ case?.image }}"
       />
       <div class="flex items-center justify-start flex-wrap mt-4 mb-4">
-        <span
-          *ngFor="let tag of case.tags"
-          class="px-2 py-1 mt-2"
+        <span *ngFor="let tag of case.tags" class="px-2 py-1 mt-2"
           ><img src="{{ tag.img }}" alt="badge"
         /></span>
       </div>
@@ -18,9 +16,7 @@
         </h1>
       </div>
 
-      <div
-        class="max-w-3xl mx-auto text-2xl  mt-4 h-full"
-      >
+      <div class="max-w-3xl mx-auto text-2xl mt-4 h-full">
         <div>
           <p class="mt-2 py-8 leading-9">
             {{ case.content }}
@@ -33,7 +29,10 @@
           </p>
           <p class="mt-2 pb-8 text-lg">
             Period of contribution:
-            <span>{{ case.start | date }} at {{ case.end | date }}</span>
+            <span
+              >{{ case.start | date }} at
+              {{ caseEnd === "now" ? caseEnd : (caseEnd | date) }}</span
+            >
           </p>
         </div>
       </div>

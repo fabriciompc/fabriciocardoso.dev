@@ -11,6 +11,7 @@ import { Case } from '../models/case';
 export class CasePageComponent implements OnInit {
   case: Case = {} as Case;
   theme: string = 'default';
+  caseEnd: any;
   constructor() {}
 
   ngOnInit() {
@@ -19,6 +20,12 @@ export class CasePageComponent implements OnInit {
 
     if (!!this.case) {
       this.getCaseOnLocalStorage();
+    }
+
+    if (!this.case.end) {
+      this.caseEnd = 'now';
+    } else {
+      this.caseEnd = this.case.end;
     }
   }
 

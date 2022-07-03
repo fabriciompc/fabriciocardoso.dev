@@ -116,6 +116,10 @@
         "img": "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
       },
       {
+        "tag": "typescript",
+        "img": "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
         "tag": "aws",
         "img": "https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
       },
@@ -130,5 +134,46 @@
     "company": "Vizir Software Studio",
     "start": "10-01-2020",
     "end": "12-04-2021"
+  },
+  {
+    "name": "Brasil de Fato",
+    "url": "https://www.brasildefato.com.br/",
+    "language": "Typescript",
+    "tags": [
+      {
+        "tag": "postgresql",
+        "img": "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+      },
+      {
+        "tag": "nestjs",
+        "img": "https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"
+      },
+      {
+        "tag": "typescript",
+        "img": "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "tag": "aws",
+        "img": "https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+      },
+      {
+        "tag": "docker",
+        "img": "https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"
+      },
+      {
+        "tag": "wordpress",
+        "img": "https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white"
+      },
+      {
+        "tag": "digitalocean",
+        "img": "https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=DigitalOcean&logoColor=white"
+      }
+    ],
+    "image": "brasildefato.png",
+    "description": "Coordinating the IT team, migrating legacy applications and training professionals in JS/TS and Wordpress tools.",
+    "content": "Technology consultant and leader of the IT department, responsible for directing the company on issues related to technology, implementing improvements and reviewing processes through the perspective of the IT department and its experiences. Managing the people of the IT team, helping each dev/analyst to evolve technically through development paths suggested by me and adjusted with active listening in feedback meetings and/or daily reports. Responsible for organizational management processes creating reports for feedback with the leadership and board of directors, aiming at productivity, costs and future projects/deliveries. I also help the assets department to make the best and most profitable purchases in services and equipment relevant to the technology area. I also play the role of technical leader together with senior developers to track the development of new solutions and define software architecture/engineering standards.",
+    "company": "Brasil de Fato / CPMidias",
+    "start": "12-04-2021",
+    "end": ""
   }
 ]
