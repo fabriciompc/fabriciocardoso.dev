@@ -1,8 +1,8 @@
 <div [ngClass]="theme">
   <div class="py-6 mx-auto">
-    <div class="max-w-6xl px-10 py-6 mx-auto bg-gray-50">
+    <div class="max-w-3xl px-10 py-6 mx-auto bg-gray-50">
       <img
-        class="object-contain object-center w-full shadow-sm max-h-72"
+        class="object-contain object-center w-60 m-auto shadow-sm max-h-72 h-52"
         src="../../assets/img/{{ case?.image }}"
       />
       <div class="flex items-center justify-start flex-wrap mt-4 mb-4">
@@ -13,25 +13,25 @@
         /></span>
       </div>
       <div class="mt-2">
-        <h1 class="text-4xl">
+        <h1 class="text-4xl leading-snug">
           {{ case.description }}
         </h1>
       </div>
 
       <div
-        class="max-w-4xl px-10 mx-auto text-2xl text-gray-700 mt-4 rounded bg-gray-100 h-full"
+        class="max-w-3xl mx-auto text-2xl  mt-4 h-full"
       >
         <div>
-          <p class="mt-2 p-8">
+          <p class="mt-2 py-8 leading-9">
             {{ case.content }}
           </p>
         </div>
 
         <div>
-          <p class="mt-2 pt-8 pl-8 text-lg">
+          <p class="mt-2 text-lg">
             Company: <span>{{ case.company }}</span>
           </p>
-          <p class="mt-2 pl-8 pb-8 text-lg">
+          <p class="mt-2 pb-8 text-lg">
             Period of contribution:
             <span>{{ case.start | date }} at {{ case.end | date }}</span>
           </p>
@@ -39,7 +39,7 @@
       </div>
 
       <button
-        class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
+        class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-10 py-1 rounded-lg"
         [routerLink]="'/'"
       >
         Back
